@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from tutorial.views import saludo, despedida, dameFecha, calculaEdad
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/', saludo),
